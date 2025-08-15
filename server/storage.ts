@@ -1,4 +1,4 @@
-import { type Contact, type InsertContact } from "@shared/schema";
+import { type Contact, type InsertContact } from "../shared/schema";
 import { randomUUID } from "crypto";
 
 export interface IStorage {
